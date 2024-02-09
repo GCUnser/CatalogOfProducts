@@ -18,7 +18,9 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 
-  <title>Catalog - About Us</title>
+  <link rel="stylesheet" href="about.css">
+
+  <title>Catalog - About</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
 
@@ -44,38 +46,15 @@
     }
 
     .b-example-divider {
-        width: 100%;
-        height: 5rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
-        text-align: center;
-      }
-
-
-    .about-heading {
-      font-family: Calibri, Times, serif;
-      color: black;
-      font-size: 3rem;
-      font-weight: bold;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); 
-      display: inline-block;
-      padding: 0.2rem 0;
-      margin: 0;
-    }
-
-    .about-body {
-      text-align: center;
-    }
-
-    .about-text {
+      width: 100%;
+      height: 5rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
       text-align: center;
     }
 
@@ -166,9 +145,29 @@
       <div class="container">
 
         <main class="about-body">
-          <h1>ComS 319 - Construction of User Interfaces</h1>
+          <h1 style="padding-bottom: 10px;">ComS 319 - Construction of User Interfaces</h1>
           <h2>Assignment 01: Catalog of Products</h2>
-          <p class="about-text">com s 319</p>
+          <h5 style="padding-bottom: 20px; font-style: italic; color: grey;">February 02, 2024</h5>
+          <div class="team-container">
+            <div class="team-member left">
+              <h2>Muralikrishna Patibandla</h2>
+              <p style="font-style: italic; color: grey;">Computer Engineering</p>
+              <p><a href="mailto:muralip@iastate.edu">muralip@iastate.edu</a></p>
+            </div>
+
+            <div class="team-member right">
+              <h2>Gabriel Unser</h2>
+              <p style="font-style: italic; color: grey;">Computer Science</p>
+              <p><a href="mailto:gunser@iastate.edu">gunser@iastate.edu</a></p>
+            </div>
+            
+        </div>
+
+        <div class="instructors">
+          <h2>Professor:</h2>
+          <h3>Dr. Ali Jannesari, Ph.D.</h3>
+        </div>
+
         </main>
         
       </div>
