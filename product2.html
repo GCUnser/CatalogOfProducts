@@ -45,11 +45,46 @@
 
     .b-example-divider {
       width: 100%;
-      height: 3rem;
-      background-color: rgba(0, 0, 0, .1);
-      border: solid rgba(0, 0, 0, .15);
-      border-width: 1px 0;
-      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      height: 5rem;
+      background-image: url('./images/wood/woodbackground.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      text-align: center;
+      border: none;
+      box-shadow: none;
+    }
+
+    .wood-heading {
+      font-family: Georgia, Times, serif;
+      color: black;
+      font-size: 3rem;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); 
+      display: inline-block;
+      padding: 0.2rem 0;
+      margin: 0;
+      line-height: 3rem; 
+    }
+
+    .overline,
+    .underline {
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: black;
+    }
+
+    .overline {
+      top: 0;
+    }
+
+    .underline {
+      bottom: 0; 
     }
 
     .b-example-vr {
@@ -122,27 +157,27 @@
       </a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="./index.html" class="nav-link">Product1</a></li>
-        <li class="nav-item"><a href="./product2.html" class="nav-link active" aria-current="page">Product2</a></li>
-        <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="./index.html" class="nav-link">Air</a></li>
+        <li class="nav-item"><a href="./product2.html" class="nav-link active" aria-current="page">Wood</a></li>
+        <li class="nav-item"><a href="./about.html" class="nav-link">About Us</a></li>
       </ul>
     </header>
   </div>
 
-  <div class="b-example-divider"></div>
-
+  <div class="b-example-divider">
+    <h1 class="wood-heading">
+      <span class="overline"></span>
+      WOOD
+      <span class="underline"></span>
+    </h1>
+  </div>
+   
     <div class="album py-5 bg-body-tertiary">
       <div class="container">
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
             <div class="card shadow-sm">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg> -->
               <img src="./images/sunflower.jpg" alt="sunflower">
               <div class="card-body">
                 <p class="card-text">INDEX2</p>
@@ -158,12 +193,6 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg> -->
               <img src="./images/bluebell.jpg" alt="bluebell">
               <div class="card-body">
                 <p class="card-text">Hyacinthoides is classified in the subfamily Scilloideae (now part of the family Asparagaceae, but formerly treated as a separate family, called Hyacinthaceae), alongside genera such as Scilla and Ornithogalum.</p>
@@ -179,12 +208,6 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg> -->
               <img src="./images/daisy.jpg" alt="daisy">
               <div class="card-body">
                 <p class="card-text">Leucanthemum vulgare, commonly known as the ox-eye daisy, oxeye daisy, dog daisy, marguerite (French: Marguerite commune, "common marguerite") and other common names,[2] is a widespread flowering plant native to Europe and the temperate regions of Asia, and an introduced plant to North America, Australia and New Zealand.</p>
@@ -201,12 +224,6 @@
 
           <div class="col">
             <div class="card shadow-sm">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg> -->
               <img src="./images/rose.jpg" alt="rose">
               <div class="card-body">
                 <p class="card-text">A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.</p>
@@ -222,12 +239,6 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg> -->
               <img src="./images/tulip.jpg" alt="tulip">
               <div class="card-body">
                 <p class="card-text">Tulips (Tulipa) are a genus of spring-blooming perennial herbaceous bulbiferous geophytes (having bulbs as storage organs). The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white (usually in warm colours).</p>
@@ -243,12 +254,6 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg> -->
               <img src="./images/pexels-pok-rie-268261.jpg" alt="mystery">
               <div class="card-body">
                 <p class="card-text">These things idk</p>
@@ -262,70 +267,6 @@
               </div>
             </div>
           </div>
-
-          <!-- <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
